@@ -92,6 +92,7 @@ debug.hwui.skia_tracing_enabled=false
 debug.hwui.skia_use_perfetto_track_events=false
 ro.hardware.hwcomposer=mtk_common
 ro.hardware.vulkan=mali
+debug.sf.frame_rate_multiple_threshold=120
 
 # SurfaceFlinger
 ro.surface_flinger.primary_display_orientation=ORIENTATION_0
