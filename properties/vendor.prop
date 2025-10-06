@@ -95,6 +95,7 @@ ro.hardware.vulkan=mali
 debug.sf.frame_rate_multiple_threshold=120
 debug.sf.latch_unsignaled=0
 debug.sf.disable_client_composition_cache=0
+ro.surface_flinger.uclamp.min=350
 
 # SurfaceFlinger
 ro.surface_flinger.primary_display_orientation=ORIENTATION_0
