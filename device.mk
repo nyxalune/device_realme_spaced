@@ -145,6 +145,10 @@ PRODUCT_PACKAGES += \
 # Dolby
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+# Override 120 for SurfaceFlinger frame_rate_category_m8n
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,120)
+
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
