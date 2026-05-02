@@ -251,7 +251,7 @@ PRODUCT_PACKAGES += \
     android.hardware.light-service.spaced
 
 # Vendor Log Tag
-include $(LOCAL_PATH)/configs/props/vendor_logtag.mk
+include $(LOCAL_PATH)/properties/vendor_logtag.mk
 
 # Media
 PRODUCT_PACKAGES += \
