@@ -1,1 +1,13 @@
+# Declare the domain for the GNSS HAL
+type mtk_hal_gnss, domain;
+
+# Declare the executable type for the binary
+type mtk_hal_gnss_exec, exec_type, vendor_file_type, file_type;
+
+# Associate the domain with the GNSS HAL server attribute
+hal_server_domain(mtk_hal_gnss, hal_gnss)
+
+# Allow the init process to transition into this domain when the binary runs
+init_daemon_domain(mtk_hal_gnss)
+
 binder_call(system_app, mtk_hal_gnss)
